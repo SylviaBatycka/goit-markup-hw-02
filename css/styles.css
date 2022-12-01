@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 
+    color: rgb(0,0,0);
+    
+    
+}
+
+.h2 {
+    font-size: 16px;
+    line-height: ;
+
+}
+.link {
+    text-decoration: none;
+  }
+  .button {
+
+  }
+  ul {
+    list-style-type: none;
+  }
+
+  .link:hover ,
+  .link:focus {
+    color:   ;
+  }
+  .button:hover ,
+  >button: :focus {
+    color:   ;
+  }
