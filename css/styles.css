@@ -1,10 +1,20 @@
+
+:root {
+  --color-purple: #806080;
+  --color-white: #fff;
+ }
+ .myClass {
+   color: var(--color-purple);
+ }
+
 body {
   font-family: "Roboto";
   font-size: 14px;
   line-height: 1.2;
   color: rgb(0, 0, 0);
-  list-style: none;
+  list-style-type: none;
 }
+
 
 .h2 {
   font-size: 1rem;
@@ -20,7 +30,7 @@ body {
   color: rgb(0,0,255);
 }
 
-ul {
+ul{
   list-style-type: none;
 }
 
