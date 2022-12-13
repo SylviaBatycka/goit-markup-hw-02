@@ -1,32 +1,50 @@
 body {
-    font-family: 'Roboto';
-    font-size: 14px;
-    line-height: 1.2
-    color: rgb(0,0,0);
-    list-style: none;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1.2;
+  color: rgb(0, 0, 0);
+  list-style: none;
 }
 
 .h2 {
-    font-size: 16px;
-    line-height: 2;
-
+  font-size: 1rem;
+  line-height: 2;
 }
 .link {
-    text-decoration: none;
-    color:black; 
- }
-  
- /* ul {
-    list-style-type: none;
-  } */
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
 
+.link:hover,
+.link:focus {
+  color: rgb(0,0,255);
+}
 
-  .button:hover ,
-  .button:focus {
-    color:  red ;
+ul {
+  list-style-type: none;
+}
+
+.button {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  color: rgb(251, 4, 4);
+}
+
+/* .link:focus ,
+  .link:hover {
+    color: rgb(25, 192, 50);
   }
+*/
+.contact {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
 
-  .contact .link:focus
-  .contact .link:hover {
-    color: green;
-  }
+.contact:hover,
+.contact:focus {
+  color: rgb(4, 251, 74);
+}
