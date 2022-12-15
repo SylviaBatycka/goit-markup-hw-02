@@ -1,17 +1,19 @@
 
 :root {
-  --color-purple: #806080;
-  --color-white: #fff;
+  --color-pink: rgb(242, 9, 242);
+  --color-white: rgb(255, 255, 255);
+  --color-black: rgb(0, 0, 0); 
+  --color-green: rgb(103, 151, 112);
+  --color-red: rgb(249, 2, 2);
+  --color-babyblue: rgb(2, 245, 245);
+  --color-darkblue: rgb(38, 2, 245);
  }
- .myClass {
-   color: var(--color-purple);
- }
-
+ 
 body {
-  font-family: "Roboto";
+  font-family: "Roboto", "Raleway", sans-serif;
   font-size: 14px;
   line-height: 1.2;
-  color: rgb(0, 0, 0);
+  color: var(--color-black);
   list-style-type: none;
 }
 
@@ -22,12 +24,12 @@ body {
 }
 .link {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: var(--color-black);
 }
 
 .link:hover,
 .link:focus {
-  color: rgb(0,0,255);
+  color: var(--color-darkblue);
 }
 
 ul{
@@ -35,13 +37,13 @@ ul{
 }
 
 .button {
-  color: rgb(0, 0, 0);
+  color: var(--color-black);
   cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
-  color: rgb(251, 4, 4);
+  color: var(--color-red);
 }
 
 /* .link:focus ,
@@ -50,11 +52,11 @@ ul{
   }
 */
 .contact {
-  color: rgb(0, 0, 0);
+  color: var(--color-black);
   text-decoration: none;
 }
 
 .contact:hover,
 .contact:focus {
-  color: rgb(4, 251, 74);
+  color: var(--color-babyblue);
 }
